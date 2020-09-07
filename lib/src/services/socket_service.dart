@@ -14,6 +14,7 @@ class SocketService with ChangeNotifier{
   _initConfig();
  }
 
+ // TODO getters
  ServerStatus get serverStatus => _serverStatus;
  IO.Socket get socket => _socket;
 
